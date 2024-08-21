@@ -1,0 +1,67 @@
+
+body{
+    background: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    letter-spacing: 0.08rem;
+    text-align: center;
+}
+
+.container{
+    background: hsl(0, 0%, 12%);
+    width: 375px;
+    height: 560px;
+    border-radius: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    letter-spacing: 0.11rem;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+
+.links{
+    background: hsl(0, 0%, 20%);
+    padding: 1em;
+    border-radius: 8px;
+    display: flex; 
+    width: 80%;
+    margin: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.links:hover{
+    background: hsl(18, 94%, 42%);
+}
+
+
+.title, .position{
+    color: hsl(0, 0%, 100%);
+}
+
+.city{
+    color: hsl(18, 94%, 42%);
+    font-weight: 800;
+    
+}
+
+.userPhoto{
+    border-radius: 50%;
+    height: 15%;
+    margin-top: 8%;
+}
